@@ -1,0 +1,9 @@
+vpc_cidr= "10.42.0.0/22"
+vpc_name= "flint_vpc"
+secondary_cidr_blocks = "192.9.203.0/24"
+region = "us-east-2"
+azs = ["us-east-2a", "us-east-2b"]
+private_subnet = ["10.42.1.0/24", "10.42.0.0/24"]
+public_subnet = ["192.9.203.0/24"]
+environment = "flint"
+subnet_tag = "production_subnet"
